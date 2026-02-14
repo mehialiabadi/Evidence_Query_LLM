@@ -201,7 +201,28 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Mery
+=======
+# environments
+env/
+runs/
+examples/
+logs/
+images/
+venv/
+.venv/
+conda_env/
+.conda/
+
+# python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.slurm
+
+
+# notebooks / misc
+.ipynb_checkpoints/
+.DS_Store
+>>>>>>> 12992cf (first commit)
